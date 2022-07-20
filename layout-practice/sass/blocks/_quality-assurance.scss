@@ -1,0 +1,93 @@
+.quality {
+  padding-bottom: 96px;
+  background-color: $gray;
+
+  @media screen and (max-width: 992px) {
+    padding-bottom: 38px;
+  }
+
+  &-top {
+    background-image: url(/images/quality/quality-fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+    padding: 36px 0 70px;
+    margin-bottom: 56px;
+
+    @media screen and (max-width: 992px) {
+      padding: 36px 0 0;
+      margin-bottom: 29px;
+    }
+
+    &__title {
+      text-align: center;
+      margin-bottom: 56px;
+
+      &-images {
+        @media screen and (max-width: 576px) {
+          width: 70%;
+        }
+      }
+    }
+
+    &__list {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+      @media screen and (max-width: 992px) {
+        justify-content: space-evenly;
+      }
+
+      .item {
+        text-align: center;
+
+        @media screen and (max-width: 992px) {
+          margin-bottom: 70px;
+        }
+
+        &__icon {
+          height: 96px;
+          margin-bottom: 40px;
+        }
+
+        &__description {
+          font-weight: 400;
+          line-height: 19px;
+          color: $white;
+          max-width: 222px;
+        }
+      }
+    }
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 18px 36px;
+    background-color: transparent;
+    background-color: $purple;
+    border-radius: 3px;
+    font-weight: 700;
+    color: $white;
+    cursor: pointer;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.6;
+    }
+
+    @media screen and (max-width: 576px) {
+      padding: 10px;
+    }
+
+    &-icon {
+      margin-right: 22px;
+
+      @media screen and (max-width: 576px) {
+        margin-right: 10px;
+      }
+    }
+  }
+}
