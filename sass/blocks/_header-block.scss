@@ -168,6 +168,8 @@
   right: 20px;
   width: 26px;
   height: 26px;
+  cursor: pointer;
+  z-index: 1;
 }
 /* добавляем "гамбургер" */
 .menu__btn > span,
