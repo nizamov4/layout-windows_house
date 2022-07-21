@@ -1,0 +1,19 @@
+body * {
+  font-family: 'Roboto', sans-serif;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+@import './base/variables';
+@import './blocks/header-block';
+@import './blocks/services-block';
+@import './blocks/products-block';
+@import './blocks/main-block';
+@import './blocks/quality-assurance';
+@import './blocks/about';
+@import './blocks/portfolio';
+@import './blocks/_question';
+@import './blocks/contacts';
+@import './blocks/footer';
